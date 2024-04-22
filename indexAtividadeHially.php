@@ -1,4 +1,6 @@
+
 <?php
+include 'atividadeHially.php';
 $fatura = new Fatura();
 $fatura->setNumero("12345");
 $fatura->setDescricao("Teclado mecânico");
